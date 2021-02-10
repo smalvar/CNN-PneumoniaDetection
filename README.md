@@ -8,6 +8,8 @@ You will be provided with the medical images with clinical labels for each image
 
 The project will include access to a GPU for fast training of deep learning architecture, as well as access to 112,000 chest x-rays with disease labels  acquired from 30,000 patients.
 
+![](pneumonia.png)
+
 ## Pneumonia and X-Rays in the Wild
 
 Chest X-ray exams are one of the most frequent and cost-effective types of medical imaging examinations. Deriving clinical diagnoses from chest X-rays can be challenging, however, even by skilled radiologists. 
@@ -192,3 +194,7 @@ You will simply _describe_ how a FDA Validation Plan would be conducted for your
 
 * Provide a short explanation of how you would obtain an optimal ground truth 
 * Provide a performance standard that you choose based on [this paper.](https://arxiv.org/pdf/1711.05225.pdf)
+
+## Results:
+
+![](AUC.png) ![](PR.png) ![](history.png)
